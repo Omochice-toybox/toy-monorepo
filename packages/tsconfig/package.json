@@ -1,0 +1,22 @@
+{
+  "name": "@toy-monorepo/tsconfig",
+  "version": "1.0.0",
+  "description": "tsconfig",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Omochice/toy-monorepo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Omochice/toy-monorepo/issues"
+  },
+  "homepage": "https://github.com/Omochice/toy-monorepo#readme",
+  "devDependencies": {
+    "@tsconfig/esm": "^1.0.3",
+    "@tsconfig/strictest": "^2.0.1"
+  }
+}
