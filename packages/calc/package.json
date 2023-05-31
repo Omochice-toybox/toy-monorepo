@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "description": "calc-module",
   "type": "module",
-  "main": "index.js",
   "exports": {
-    "./*": "./src/*"
+    "./*": "dist/*.js",
+    "./*.d.ts": "dist/*.d.ts"
   },
   "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
     "test": "vitest --run",
     "format": "prettier --write ./**/*.{js,ts}"
   },
