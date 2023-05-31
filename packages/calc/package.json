@@ -1,9 +1,12 @@
 {
-  "name": "calc",
+  "name": "@toy-monorepo/calc",
   "version": "0.1.0",
   "description": "calc-module",
   "type": "module",
   "main": "index.js",
+  "exports": {
+    "./*": "./src/*"
+  },
   "scripts": {
     "test": "vitest --run",
     "format": "prettier --write ./**/*.{js,ts}"
