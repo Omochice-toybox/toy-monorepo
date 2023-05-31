@@ -3,7 +3,7 @@
     "@tsconfig/strictest/tsconfig.json",
     "@tsconfig/esm/tsconfig.json"
   ],
-  "compilerOption": {
+  "compilerOptions": {
     "moduleResolution": "bundler"
   }
 }
